@@ -9,3 +9,4 @@ Webscraping para trackeamento de capital de preços diários (ou de hora em hora
 - Desacoplar o código um pouco mais (não deixando uma única classe responsável por executar todas as funções).
 - Utilizaria algum orquestrador (como o Airflow) com GCP|AWS processando diáriamente ou de hora em hora (como sugerido).
 - Utilizar o wedDriver manager para gerenciar automaticamente com problemas de versionamento do navegador.
+- Atualmente o código está apto para rodar no final do dia (quando as cotações são encerradas). Porém, alterando algumas linhas de código, é possível rodar de hora em hora.
